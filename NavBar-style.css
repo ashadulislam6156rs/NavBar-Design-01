@@ -1,0 +1,133 @@
+
+/* Global satting start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-family: "Josefin Sans", serif;
+    font-family: "Rowdies", serif;
+
+
+}
+body{
+    /* background-color: #f2f2; */
+    margin-top: 100px;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.16%;}
+.col-3{width: 25%;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.65%;}
+.col-6{width: 50%;}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+
+/* 
+1 → #1b325e
+5 → #f26c4f
+2 → #9cc5e5
+3 → #e9f2f9
+4 → #3a8ac9 */
+
+
+.flex-space-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+/* Global satting end */
+
+
+.navBar{
+    background-color: #1b325e;
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+.navBar-tittle{
+    padding-left: 20px;
+}
+
+.icon-left{
+    padding: 10px;
+    width: 40px;
+    height: auto;
+    font-size: 30px;
+    transform: rotate(-45deg);
+    color: #f26c4f;
+
+}
+.icon-right{
+    padding: 10px;
+    width: 40px;
+    height: auto;
+    font-size: 30px;
+    transform: scaleX(-1) rotate(-40deg);
+    color:  #f26c4f;
+}
+
+.navBar-tittle h2 span{
+    width: 100%;
+    height: auto;
+    font-family: "Playfair Display", serif;
+    
+    color: white;
+    
+}
+.navBar-tittle h2 a{
+    text-decoration: none;
+}
+
+.navBar-ul{
+  margin-right: 20px;
+}
+.navBar-li{
+    list-style-type: none;
+
+}
+
+.navBar-link{
+    text-decoration: none;
+    color: white;
+    font-family: "Josefin Sans", serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navBar-link:hover{
+ 
+    color: #f26c4f;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    
+    
+}
+.navBar-right{
+
+    /* background-color: #f26c4f; */
+   
+    height: 50px;
+    padding-top: 12px;
+    width: 60%;
+    border-radius: 10px;
+
+}
+.navBar-right:hover{
+    border: 2px #40868b solid;
+    box-shadow: 2px 2px 3px #f2f2, 3px 3px 5px white;
+}
+
+
+
